@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+*{
+	font-family: 'Wix Madefor Display', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	background-color: #999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	transition: 0.7s;
+	padding: 30px 20px;
+	z-index: 10;
+}
+
+header.abajo{
+	background: #38a330;
+	padding: 15px 20px;
+}
+
+header .logo{
+	position: relative;
+	color: #0d0e0d;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 2px;
+	transition: 1.5s;
+	text-decoration: none;
+}
+.display1{
+	font-size: 34px;
+}
+.display2{
+	font-size: 25px;
+}
+h2,h3{
+	padding: 15px 0;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li{
+	list-style: none;
+}
+
+header ul li a{
+	position: relative;
+	font-family:monospace;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-weight: 600;
+	transition: 0.7s;
+	font-size: 1.7em;
+}
+section:nth-of-type(2){
+    background-color: #222;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .my-table thead tr {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .my-table th,
+  .my-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+	text-align: center;
+  }
+  
+  .my-table tbody tr:nth-child(even) {
+    background-color: #6e6a6a;
+  }
+  
+  .my-table tbody tr:hover {
+    background-color: #ddd;
+  }
+
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/source/img/bosque.jpg);
+	opacity: 0.7;
+    background-size: cover;
+    background-position: center center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header.abajo .logo,
+header.abajo ul li a{
+	color: #000;
+	
+}
+
+
+.button
+{	
+	width: 100px;
+	height: 25px;
+	display: block;
+	background-color: rgb(122, 113, 113);
+	border-radius: 15px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+		font-size: 0.7rem;
+}
+
+@media only screen and (max-width:600px) {
+	body {
+		font-size: 16px;
+	}
+	header ul li a{
+		font-size: 10px;
+	}
+	
+}
+
+.title {
+	font-size: 35px;
+	text-align: center;
+	background-color: #222;
+	color: #328f20;
+}
+
+
+
+
+.topic {
+	text-align: center;
+}
+
+body {
+	background-color: #222;
+}
+
+.bosques {
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 20px;
+	color: white;
+}
+
+section {
+    margin: 20px;
+	color: white;
+	text-align: center;
+  }
+  article {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  article img {
+    width: 450px;
+    height: 300px;
+  }
+
+.Espacio{
+	display: block;
+	width: 100%;
+	height: 40px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #328f20;
+	padding: 7px;
+	text-align: center;
+
+}
+
+.footer p {
+    color: #333;
+    font-size: 20px;
+}
+
+.footer a {
+    /*color: black;*/
+    text-decoration: none;
+}
+
+footer .footer span{
+	font-size: 20px;
+	font-weight: 500;
+	color:cyan;
+}
+
+footer .footer span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
