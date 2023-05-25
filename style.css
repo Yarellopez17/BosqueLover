@@ -139,6 +139,34 @@ header.abajo ul li a{
 	text-decoration: none;
 		font-size: 0.7rem;
 }
+@media only screen and (max-width:900px){
+body{
+	font-size: 18px;
+}
+section {
+    margin: 20px;
+	color: white;
+	text-align: center;
+  }
+  article {
+    float: left;
+    width: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  article img {
+    width: 450px;
+    height: 300px;
+  }
+
+.Espacio{
+	display: block;
+	width: 80%;
+	height: 40px;
+}
+
+
+}
 
 @media only screen and (max-width:600px) {
 	body {
