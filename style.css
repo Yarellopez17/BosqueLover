@@ -141,12 +141,14 @@ header.abajo ul li a{
 }
 @media only screen and (max-width:1440px){
 body{
-	font-size: 18px;
+	font-size: 16px;
+	
 }
 section {
     margin: 20px;
 	color: white;
 	text-align: center;
+	padding: 8em;
   }
   article {
     float: left;
@@ -163,6 +165,7 @@ section {
 	display: block;
 	width: 50%;
 	height: 60px;
+	
 }
 
 
@@ -189,6 +192,7 @@ section {
 	  article img {
 		width: 300px;
 		height: 200px;
+		
 	  }
 	
 	.Espacio{
