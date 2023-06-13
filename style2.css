@@ -1,0 +1,28 @@
+
+body {
+    background-color: #e0f2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    border: 5px solid #73c6b6;
+    background-color: #c7edcc;
+    background-image: url("./source/img/VolcanMasaya\ Conservacion.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    font-size: 30px;
+    color: #158867;
+  }
