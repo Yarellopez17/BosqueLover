@@ -63,3 +63,26 @@ color: white;
   color: white;
   margin-bottom: 16px;
 }
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.form-signup {
+  width: 430px;
+  height: 500px;
+  background: #38a330;
+  margin: auto;
+  margin-top: 180px;
+  padding: 20px 30px;
+  border-top: 4px solid #0d0e0d;
+  color: white;
+}
+
+.form-signup h3 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
