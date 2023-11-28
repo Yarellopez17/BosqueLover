@@ -108,7 +108,7 @@ section:nth-of-type(2){
   }
   
   .my-table tbody tr:nth-child(even) {
-    background-color: #6e6a6a;
+    background-color: #755353;
   }
   
   .my-table tbody tr:hover {

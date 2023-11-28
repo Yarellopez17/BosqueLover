@@ -1,6 +1,6 @@
 
 body {
-    background-color: #e0f2f1;
+    background-color: #4c8582;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
   
   .box {
     border: 5px solid #73c6b6;
-    background-color: #c7edcc;
+    background-color: #3c6642;
     background-image: url("./source/img/VolcanMasaya\ Conservacion.jpg");
     background-size: cover;
     background-position: center;
