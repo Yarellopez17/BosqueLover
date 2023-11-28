@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+
+* {
+  font-family: 'Wix Madefor Display', sans-serif;;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
+<<<<<<< HEAD
     background-color: #4c8582;
     display: flex;
     justify-content: center;
@@ -26,3 +35,83 @@ body {
     font-size: 30px;
     color: #158867;
   }
+=======
+  background-image: url(source/img/bosque.jpg);
+}
+
+.form-login {
+width: 400px;
+height: 340px;
+background: #38a330;
+margin: auto;
+margin-top: 180px;
+padding: 20px 30px;
+border-top: 4px solid #0d0e0d;
+color: white;
+}
+
+.form-login h3 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.form-login p {
+  height: 40px;
+  text-align: center;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
+
+.controls {
+  width: 100%;
+  border: 1px solid #0d0e0d;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background: #999;
+  font-size: 14px;
+  color: white;
+}
+
+.buttons {
+  width: 100%;
+  height: 40px;
+  background: #0d0e0d;
+  border: none;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.form-signup {
+  width: 430px;
+  height: 500px;
+  background: #38a330;
+  margin: auto;
+  margin-top: 180px;
+  padding: 20px 30px;
+  border-top: 4px solid #0d0e0d;
+  color: white;
+}
+
+.form-signup h3 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+>>>>>>> 6f86830671f532a26caffa628636a482cfc64d0f
